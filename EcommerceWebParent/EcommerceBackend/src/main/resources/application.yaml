@@ -2,9 +2,10 @@ spring:
   application:
     name: ${APP_NAME:Ecommerce Admin App}
   datasource:
-    url: jdbc:${DB_postgresql}://${DB_SERVER:localhost}:${DB_PORT:5432}/${DB_NAME:ecommercedb}
+    url: jdbc:${DB:postgresql}://${DB_SERVER:localhost}:${DB_PORT:5432}/${DB_NAME:ecommercedb}
     username: ${DB_USERNAME:postgres}
     password: ${DB_PASSWORD:jp}
+    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: update
@@ -19,3 +20,10 @@ server:
   port: ${APP_SERVER_PORT:8080}
   servlet:
     context-path: ${ADMIN_BASE_PATH:/admin}
+
+logging:
+  file:
+    name:
+      ${LOG_FILE_NAME:application.log}
+    level:
+      root: ${LOGGING_LEVEL:INFO}
