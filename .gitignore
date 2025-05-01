@@ -34,3 +34,6 @@ build/
 /brand-logos/
 /category-images/
 /product-images/
+
+# Log files
+*.log
