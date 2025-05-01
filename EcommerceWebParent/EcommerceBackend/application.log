@@ -1463,3 +1463,563 @@ org.springframework.transaction.UnexpectedRollbackException: Transaction silentl
 2025-05-01T14:17:14.743+05:45  INFO 680204 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-05-01T14:17:14.746+05:45  INFO 680204 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-05-01T14:17:14.749+05:45  INFO 680204 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-01T15:46:03.564+05:45  INFO 739334 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Starting UserRepositoryTests using Java 21.0.7 with PID 739334 (started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend)
+2025-05-01T15:46:03.569+05:45  INFO 739334 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T15:46:04.137+05:45  INFO 739334 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T15:46:04.255+05:45  INFO 739334 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 2 JPA repository interfaces.
+2025-05-01T15:46:04.835+05:45  INFO 739334 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T15:46:04.933+05:45  INFO 739334 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T15:46:05.014+05:45  INFO 739334 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T15:46:05.476+05:45  INFO 739334 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T15:46:05.517+05:45  INFO 739334 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T15:46:05.734+05:45  INFO 739334 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2313db84
+2025-05-01T15:46:05.736+05:45  INFO 739334 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T15:46:05.775+05:45  WARN 739334 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T15:46:06.803+05:45  INFO 739334 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T15:46:06.966+05:45  INFO 739334 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:46:07.328+05:45  INFO 739334 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Started UserRepositoryTests in 4.58 seconds (process running for 6.181)
+2025-05-01T15:46:07.973+05:45  INFO 739334 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:46:07.975+05:45  INFO 739334 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T15:46:07.979+05:45  INFO 739334 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-01T15:48:10.046+05:45  INFO 740839 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Starting UserRepositoryTests using Java 21.0.7 with PID 740839 (started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend)
+2025-05-01T15:48:10.049+05:45  INFO 740839 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T15:48:10.614+05:45  INFO 740839 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T15:48:10.717+05:45  INFO 740839 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 2 JPA repository interfaces.
+2025-05-01T15:48:11.278+05:45  INFO 740839 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T15:48:11.396+05:45  INFO 740839 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T15:48:11.482+05:45  INFO 740839 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T15:48:12.036+05:45  INFO 740839 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T15:48:12.092+05:45  INFO 740839 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T15:48:12.367+05:45  INFO 740839 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61359e87
+2025-05-01T15:48:12.370+05:45  INFO 740839 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T15:48:12.415+05:45  WARN 740839 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T15:48:13.543+05:45  INFO 740839 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T15:48:13.704+05:45  INFO 740839 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:48:14.063+05:45  INFO 740839 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Started UserRepositoryTests in 4.834 seconds (process running for 6.362)
+2025-05-01T15:48:14.574+05:45  WARN 740839 --- [EcommerceCommon] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23505
+2025-05-01T15:48:14.575+05:45 ERROR 740839 --- [EcommerceCommon] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: duplicate key value violates unique constraint "uk6dotkott2kjsp8vw4d0m25fb7"
+  Detail: Key (email)=(jp@jp.np) already exists.
+2025-05-01T15:48:14.596+05:45  WARN 740839 --- [EcommerceCommon] [main] o.s.test.context.TestContextManager      : Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] for test method [public void np.com.jp.ecommerce.admin.user.UserRepositoryTests.testCreateUser()] and test instance [np.com.jp.ecommerce.admin.user.UserRepositoryTests@2a525f88]
+
+org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:804) ~[spring-tx-6.1.19.jar:6.1.19]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758) ~[spring-tx-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:135) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:260) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:488) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:278) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$12(TestMethodTestDescriptor.java:261) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:277) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$14(TestMethodTestDescriptor.java:277) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.commons.util.CollectionUtils.forEachInReverseOrder(CollectionUtils.java:217) ~[junit-platform-commons-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:276) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:260) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:145) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+
+2025-05-01T15:48:14.629+05:45  INFO 740839 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:48:14.632+05:45  INFO 740839 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T15:48:14.635+05:45  INFO 740839 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-01T15:49:11.557+05:45  INFO 741667 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Starting UserRepositoryTests using Java 21.0.7 with PID 741667 (started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend)
+2025-05-01T15:49:11.559+05:45  INFO 741667 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T15:49:12.150+05:45  INFO 741667 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T15:49:12.270+05:45  INFO 741667 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 2 JPA repository interfaces.
+2025-05-01T15:49:12.843+05:45  INFO 741667 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T15:49:12.945+05:45  INFO 741667 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T15:49:13.037+05:45  INFO 741667 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T15:49:13.589+05:45  INFO 741667 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T15:49:13.642+05:45  INFO 741667 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T15:49:13.919+05:45  INFO 741667 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50ec4bfc
+2025-05-01T15:49:13.922+05:45  INFO 741667 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T15:49:13.967+05:45  WARN 741667 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T15:49:15.115+05:45  INFO 741667 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T15:49:15.276+05:45  INFO 741667 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:49:15.607+05:45  INFO 741667 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Started UserRepositoryTests in 4.842 seconds (process running for 6.396)
+2025-05-01T15:49:16.117+05:45  WARN 741667 --- [EcommerceCommon] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23505
+2025-05-01T15:49:16.117+05:45 ERROR 741667 --- [EcommerceCommon] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: duplicate key value violates unique constraint "uk6dotkott2kjsp8vw4d0m25fb7"
+  Detail: Key (email)=(jp@jp.np) already exists.
+2025-05-01T15:49:16.135+05:45  WARN 741667 --- [EcommerceCommon] [main] o.s.test.context.TestContextManager      : Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] for test method [public void np.com.jp.ecommerce.admin.user.UserRepositoryTests.testCreateUser()] and test instance [np.com.jp.ecommerce.admin.user.UserRepositoryTests@7b4c793b]
+
+org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:804) ~[spring-tx-6.1.19.jar:6.1.19]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758) ~[spring-tx-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:135) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:260) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:488) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:278) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$12(TestMethodTestDescriptor.java:261) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:277) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$14(TestMethodTestDescriptor.java:277) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.commons.util.CollectionUtils.forEachInReverseOrder(CollectionUtils.java:217) ~[junit-platform-commons-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:276) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:260) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:145) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+
+2025-05-01T15:49:16.166+05:45  INFO 741667 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:49:16.169+05:45  INFO 741667 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T15:49:16.172+05:45  INFO 741667 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-01T15:50:28.233+05:45  INFO 742605 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Starting UserRepositoryTests using Java 21.0.7 with PID 742605 (started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend)
+2025-05-01T15:50:28.236+05:45  INFO 742605 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T15:50:28.834+05:45  INFO 742605 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T15:50:28.952+05:45  INFO 742605 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 2 JPA repository interfaces.
+2025-05-01T15:50:29.493+05:45  INFO 742605 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T15:50:29.597+05:45  INFO 742605 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T15:50:29.688+05:45  INFO 742605 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T15:50:30.245+05:45  INFO 742605 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T15:50:30.300+05:45  INFO 742605 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T15:50:30.608+05:45  INFO 742605 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@578a5ce8
+2025-05-01T15:50:30.612+05:45  INFO 742605 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T15:50:30.667+05:45  WARN 742605 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T15:50:32.318+05:45  INFO 742605 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T15:50:32.437+05:45  WARN 742605 --- [EcommerceCommon] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2025-05-01T15:50:32.438+05:45  WARN 742605 --- [EcommerceCommon] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "ukofx66keruapi6vyqpv6f2or37" of relation "roles" does not exist, skipping
+2025-05-01T15:50:32.455+05:45  WARN 742605 --- [EcommerceCommon] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2025-05-01T15:50:32.456+05:45  WARN 742605 --- [EcommerceCommon] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk6dotkott2kjsp8vw4d0m25fb7" of relation "users" does not exist, skipping
+2025-05-01T15:50:32.481+05:45  INFO 742605 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:50:32.972+05:45  INFO 742605 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Started UserRepositoryTests in 5.543 seconds (process running for 7.161)
+2025-05-01T15:50:33.793+05:45  INFO 742605 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:50:33.796+05:45  INFO 742605 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T15:50:33.800+05:45  INFO 742605 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-01T15:51:55.878+05:45  INFO 743764 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : Starting RoleRepositoryTests using Java 21.0.7 with PID 743764 (started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend)
+2025-05-01T15:51:55.881+05:45  INFO 743764 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T15:51:56.442+05:45  INFO 743764 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T15:51:56.542+05:45  INFO 743764 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 2 JPA repository interfaces.
+2025-05-01T15:51:57.129+05:45  INFO 743764 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T15:51:57.247+05:45  INFO 743764 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T15:51:57.335+05:45  INFO 743764 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T15:51:57.901+05:45  INFO 743764 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T15:51:57.956+05:45  INFO 743764 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T15:51:58.258+05:45  INFO 743764 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6222391a
+2025-05-01T15:51:58.261+05:45  INFO 743764 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T15:51:58.313+05:45  WARN 743764 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T15:51:59.560+05:45  INFO 743764 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T15:51:59.734+05:45  INFO 743764 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:52:00.089+05:45  INFO 743764 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : Started RoleRepositoryTests in 5.012 seconds (process running for 6.481)
+2025-05-01T15:52:00.614+05:45  INFO 743764 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : Role saved: {}np.com.jp.ecommerce.common.entity.Role@55d8f6bb
+2025-05-01T15:52:00.648+05:45  INFO 743764 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:52:00.650+05:45  INFO 743764 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T15:52:00.655+05:45  INFO 743764 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-01T15:53:59.947+05:45  INFO 745298 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Starting UserRepositoryTests using Java 21.0.7 with PID 745298 (started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend)
+2025-05-01T15:53:59.950+05:45  INFO 745298 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T15:54:00.508+05:45  INFO 745298 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T15:54:00.619+05:45  INFO 745298 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 2 JPA repository interfaces.
+2025-05-01T15:54:01.224+05:45  INFO 745298 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T15:54:01.341+05:45  INFO 745298 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T15:54:01.431+05:45  INFO 745298 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T15:54:01.985+05:45  INFO 745298 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T15:54:02.037+05:45  INFO 745298 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T15:54:02.311+05:45  INFO 745298 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@367d34c0
+2025-05-01T15:54:02.314+05:45  INFO 745298 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T15:54:02.356+05:45  WARN 745298 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T15:54:03.430+05:45  INFO 745298 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T15:54:03.593+05:45  INFO 745298 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:54:03.927+05:45  INFO 745298 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Started UserRepositoryTests in 4.777 seconds (process running for 6.385)
+2025-05-01T15:54:04.428+05:45  WARN 745298 --- [EcommerceCommon] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23505
+2025-05-01T15:54:04.428+05:45 ERROR 745298 --- [EcommerceCommon] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: duplicate key value violates unique constraint "uk6dotkott2kjsp8vw4d0m25fb7"
+  Detail: Key (email)=(jp@jp.np) already exists.
+2025-05-01T15:54:04.446+05:45  WARN 745298 --- [EcommerceCommon] [main] o.s.test.context.TestContextManager      : Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] for test method [public void np.com.jp.ecommerce.admin.user.UserRepositoryTests.testCreateUser1()] and test instance [np.com.jp.ecommerce.admin.user.UserRepositoryTests@44580de0]
+
+org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:804) ~[spring-tx-6.1.19.jar:6.1.19]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758) ~[spring-tx-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:135) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:260) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:488) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:278) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$12(TestMethodTestDescriptor.java:261) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:277) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$14(TestMethodTestDescriptor.java:277) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.commons.util.CollectionUtils.forEachInReverseOrder(CollectionUtils.java:217) ~[junit-platform-commons-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:276) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:260) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:145) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+
+2025-05-01T15:54:04.475+05:45  INFO 745298 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:54:04.477+05:45  INFO 745298 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T15:54:04.481+05:45  INFO 745298 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-01T15:54:50.581+05:45  INFO 746023 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Starting UserRepositoryTests using Java 21.0.7 with PID 746023 (started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend)
+2025-05-01T15:54:50.584+05:45  INFO 746023 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T15:54:51.142+05:45  INFO 746023 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T15:54:51.255+05:45  INFO 746023 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 2 JPA repository interfaces.
+2025-05-01T15:54:51.724+05:45  INFO 746023 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T15:54:51.806+05:45  INFO 746023 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T15:54:51.877+05:45  INFO 746023 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T15:54:52.306+05:45  INFO 746023 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T15:54:52.344+05:45  INFO 746023 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T15:54:52.534+05:45  INFO 746023 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@691567ea
+2025-05-01T15:54:52.536+05:45  INFO 746023 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T15:54:52.569+05:45  WARN 746023 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T15:54:53.554+05:45  INFO 746023 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T15:54:53.718+05:45  INFO 746023 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:54:54.042+05:45  INFO 746023 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Started UserRepositoryTests in 4.264 seconds (process running for 5.896)
+2025-05-01T15:54:54.585+05:45  INFO 746023 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : User saved: User{id=3, email='jeevan@np.com', password='jp', firstName='Jeevan', lastName='P', photos='null', enabled=false, roles=[np.com.jp.ecommerce.common.entity.Role@792b9dd3]}
+2025-05-01T15:54:54.638+05:45  INFO 746023 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:54:54.640+05:45  INFO 746023 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T15:54:54.644+05:45  INFO 746023 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-01T16:19:49.709+05:45  INFO 762164 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : Starting RoleRepositoryTests using Java 21.0.7 with PID 762164 (started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend)
+2025-05-01T16:19:49.712+05:45  INFO 762164 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T16:19:50.294+05:45  INFO 762164 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T16:19:50.398+05:45  INFO 762164 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 2 JPA repository interfaces.
+2025-05-01T16:19:50.992+05:45  INFO 762164 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T16:19:51.100+05:45  INFO 762164 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T16:19:51.189+05:45  INFO 762164 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T16:19:51.707+05:45  INFO 762164 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T16:19:51.754+05:45  INFO 762164 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T16:19:52.006+05:45  INFO 762164 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61359e87
+2025-05-01T16:19:52.009+05:45  INFO 762164 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T16:19:52.051+05:45  WARN 762164 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T16:19:53.122+05:45  INFO 762164 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T16:19:53.284+05:45  INFO 762164 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:19:53.633+05:45  INFO 762164 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : Started RoleRepositoryTests in 4.727 seconds (process running for 6.253)
+2025-05-01T16:19:54.118+05:45  INFO 762164 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : Role saved: }np.com.jp.ecommerce.common.entity.Role@21
+2025-05-01T16:19:54.157+05:45  INFO 762164 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:19:54.159+05:45  INFO 762164 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T16:19:54.163+05:45  INFO 762164 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-01T16:20:13.564+05:45  INFO 762557 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Starting UserRepositoryTests using Java 21.0.7 with PID 762557 (started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend)
+2025-05-01T16:20:13.567+05:45  INFO 762557 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T16:20:14.165+05:45  INFO 762557 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T16:20:14.264+05:45  INFO 762557 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 2 JPA repository interfaces.
+2025-05-01T16:20:14.829+05:45  INFO 762557 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T16:20:14.934+05:45  INFO 762557 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T16:20:15.028+05:45  INFO 762557 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T16:20:15.576+05:45  INFO 762557 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T16:20:15.635+05:45  INFO 762557 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T16:20:15.936+05:45  INFO 762557 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3815146b
+2025-05-01T16:20:15.940+05:45  INFO 762557 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T16:20:15.993+05:45  WARN 762557 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T16:20:17.662+05:45  INFO 762557 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T16:20:17.902+05:45  INFO 762557 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:20:18.340+05:45  INFO 762557 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Started UserRepositoryTests in 5.595 seconds (process running for 7.102)
+2025-05-01T16:20:18.878+05:45  WARN 762557 --- [EcommerceCommon] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23505
+2025-05-01T16:20:18.878+05:45 ERROR 762557 --- [EcommerceCommon] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: duplicate key value violates unique constraint "uk6dotkott2kjsp8vw4d0m25fb7"
+  Detail: Key (email)=(jp@jp.np) already exists.
+2025-05-01T16:20:18.897+05:45  WARN 762557 --- [EcommerceCommon] [main] o.s.test.context.TestContextManager      : Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] for test method [public void np.com.jp.ecommerce.admin.user.UserRepositoryTests.testCreateNewUserWithOneRole()] and test instance [np.com.jp.ecommerce.admin.user.UserRepositoryTests@10466c55]
+
+org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:804) ~[spring-tx-6.1.19.jar:6.1.19]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758) ~[spring-tx-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:135) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:260) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:488) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:278) ~[spring-test-6.1.19.jar:6.1.19]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$12(TestMethodTestDescriptor.java:261) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:277) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$14(TestMethodTestDescriptor.java:277) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.commons.util.CollectionUtils.forEachInReverseOrder(CollectionUtils.java:217) ~[junit-platform-commons-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:276) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:260) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:145) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+
+2025-05-01T16:20:18.926+05:45  INFO 762557 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:20:18.928+05:45  INFO 762557 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T16:20:18.932+05:45  INFO 762557 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-01T16:20:26.626+05:45  INFO 762850 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Starting UserRepositoryTests using Java 21.0.7 with PID 762850 (started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend)
+2025-05-01T16:20:26.629+05:45  INFO 762850 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T16:20:27.223+05:45  INFO 762850 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T16:20:27.326+05:45  INFO 762850 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 2 JPA repository interfaces.
+2025-05-01T16:20:27.890+05:45  INFO 762850 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T16:20:28.007+05:45  INFO 762850 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T16:20:28.090+05:45  INFO 762850 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T16:20:28.658+05:45  INFO 762850 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T16:20:28.714+05:45  INFO 762850 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T16:20:29.022+05:45  INFO 762850 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@71936a92
+2025-05-01T16:20:29.025+05:45  INFO 762850 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T16:20:29.081+05:45  WARN 762850 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T16:20:30.441+05:45  INFO 762850 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T16:20:30.613+05:45  INFO 762850 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:20:30.953+05:45  INFO 762850 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Started UserRepositoryTests in 5.141 seconds (process running for 6.687)
+2025-05-01T16:20:31.472+05:45  INFO 762850 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : User saved: User{id=5, email='ravi@gmail.com', password='ravi', firstName='Ravi', lastName='Kumar', photos='null', enabled=false, roles=[np.com.jp.ecommerce.common.entity.Role@22, np.com.jp.ecommerce.common.entity.Role@24]}
+2025-05-01T16:20:31.519+05:45  INFO 762850 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:20:31.521+05:45  INFO 762850 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T16:20:31.524+05:45  INFO 762850 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-01T16:30:03.670+05:45  INFO 769378 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Starting UserRepositoryTests using Java 21.0.7 with PID 769378 (started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend)
+2025-05-01T16:30:03.673+05:45  INFO 769378 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T16:30:04.258+05:45  INFO 769378 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T16:30:04.356+05:45  INFO 769378 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+2025-05-01T16:30:04.928+05:45  INFO 769378 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T16:30:05.027+05:45  INFO 769378 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T16:30:05.122+05:45  INFO 769378 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T16:30:05.628+05:45  INFO 769378 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T16:30:05.674+05:45  INFO 769378 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T16:30:05.918+05:45  INFO 769378 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@16d431b4
+2025-05-01T16:30:05.921+05:45  INFO 769378 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T16:30:05.960+05:45  WARN 769378 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T16:30:07.012+05:45  INFO 769378 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T16:30:07.172+05:45  INFO 769378 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:30:07.533+05:45  INFO 769378 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Started UserRepositoryTests in 4.672 seconds (process running for 6.235)
+2025-05-01T16:30:08.180+05:45  INFO 769378 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : User{id=1, email='jp@jp.np', password='jp', firstName='Jeevan', lastName='P', photos='null', enabled=false, roles=[]}
+2025-05-01T16:30:08.184+05:45  INFO 769378 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : User{id=3, email='jeevan@np.com', password='jp', firstName='Jeevan', lastName='P', photos='null', enabled=false, roles=[Role{id=1, name='ROLE_ADMIN', description='Manages everything'}]}
+2025-05-01T16:30:08.186+05:45  INFO 769378 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : User{id=5, email='ravi@gmail.com', password='ravi', firstName='Ravi', lastName='Kumar', photos='null', enabled=false, roles=[Role{id=3, name='ROLE_EDITOR', description='Manage categories, brands, products, articles and menus'}, Role{id=5, name='ROLE_ASSISTANT', description='Manage questions and reviews'}]}
+2025-05-01T16:30:08.217+05:45  INFO 769378 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:30:08.219+05:45  INFO 769378 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T16:30:08.223+05:45  INFO 769378 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-01T16:33:18.884+05:45  INFO 771834 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Starting UserRepositoryTests using Java 21.0.7 with PID 771834 (started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend)
+2025-05-01T16:33:18.887+05:45  INFO 771834 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T16:33:19.516+05:45  INFO 771834 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T16:33:19.621+05:45  INFO 771834 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 2 JPA repository interfaces.
+2025-05-01T16:33:20.187+05:45  INFO 771834 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T16:33:20.327+05:45  INFO 771834 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T16:33:20.427+05:45  INFO 771834 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T16:33:21.050+05:45  INFO 771834 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T16:33:21.110+05:45  INFO 771834 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T16:33:21.434+05:45  INFO 771834 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6870cfac
+2025-05-01T16:33:21.437+05:45  INFO 771834 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T16:33:21.491+05:45  WARN 771834 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T16:33:22.751+05:45  INFO 771834 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T16:33:22.942+05:45  INFO 771834 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:33:23.303+05:45  INFO 771834 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Started UserRepositoryTests in 5.253 seconds (process running for 6.778)
+2025-05-01T16:33:23.883+05:45  INFO 771834 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : User: User{id=1, email='jp@jp.np', password='jp', firstName='Jeevan', lastName='P', photos='null', enabled=false, roles=[]}
+2025-05-01T16:33:23.884+05:45  INFO 771834 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : User: User{id=1, email='jp@jp.np', password='jp', firstName='Jeevan', lastName='P', photos='null', enabled=false, roles=[]}
+2025-05-01T16:33:23.918+05:45  INFO 771834 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:33:23.920+05:45  INFO 771834 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T16:33:23.924+05:45  INFO 771834 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-01T16:35:40.433+05:45  INFO 773709 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Starting UserRepositoryTests using Java 21.0.7 with PID 773709 (started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend)
+2025-05-01T16:35:40.435+05:45  INFO 773709 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T16:35:40.821+05:45  INFO 773709 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T16:35:40.899+05:45  INFO 773709 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2025-05-01T16:35:41.295+05:45  INFO 773709 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T16:35:41.362+05:45  INFO 773709 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T16:35:41.425+05:45  INFO 773709 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T16:35:41.799+05:45  INFO 773709 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T16:35:41.837+05:45  INFO 773709 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T16:35:42.047+05:45  INFO 773709 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a2bf50f
+2025-05-01T16:35:42.049+05:45  INFO 773709 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T16:35:42.095+05:45  WARN 773709 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T16:35:43.337+05:45  INFO 773709 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T16:35:43.587+05:45  INFO 773709 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:35:44.036+05:45  INFO 773709 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Started UserRepositoryTests in 4.124 seconds (process running for 5.409)
+2025-05-01T16:35:44.747+05:45  INFO 773709 --- [EcommerceCommon] [main] n.c.j.e.admin.user.RoleRepositoryTests   : User: User{id=1, email='jp@np.com', password='jp', firstName='Jeevan', lastName='P', photos='null', enabled=true, roles=[]}
+2025-05-01T16:35:44.824+05:45  INFO 773709 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:35:44.828+05:45  INFO 773709 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T16:35:44.833+05:45  INFO 773709 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-01T16:40:18.937+05:45  INFO 776975 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Starting UserRepositoryTests using Java 21.0.7 with PID 776975 (started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend)
+2025-05-01T16:40:18.941+05:45  INFO 776975 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T16:40:19.340+05:45  INFO 776975 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T16:40:19.428+05:45  INFO 776975 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
+2025-05-01T16:40:19.864+05:45  INFO 776975 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T16:40:19.966+05:45  INFO 776975 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T16:40:20.032+05:45  INFO 776975 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T16:40:20.575+05:45  INFO 776975 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T16:40:20.630+05:45  INFO 776975 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T16:40:20.901+05:45  INFO 776975 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2bd8f7db
+2025-05-01T16:40:20.903+05:45  INFO 776975 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T16:40:20.944+05:45  WARN 776975 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T16:40:22.504+05:45  INFO 776975 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T16:40:22.814+05:45  INFO 776975 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:40:23.201+05:45  INFO 776975 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Started UserRepositoryTests in 4.873 seconds (process running for 6.014)
+2025-05-01T16:40:23.759+05:45  INFO 776975 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:40:23.761+05:45  INFO 776975 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T16:40:23.765+05:45  INFO 776975 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-01T16:40:35.642+05:45  INFO 777308 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Starting UserRepositoryTests using Java 21.0.7 with PID 777308 (started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend)
+2025-05-01T16:40:35.645+05:45  INFO 777308 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T16:40:36.058+05:45  INFO 777308 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T16:40:36.142+05:45  INFO 777308 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+2025-05-01T16:40:36.539+05:45  INFO 777308 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T16:40:36.609+05:45  INFO 777308 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T16:40:36.681+05:45  INFO 777308 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T16:40:37.069+05:45  INFO 777308 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T16:40:37.105+05:45  INFO 777308 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T16:40:37.294+05:45  INFO 777308 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45554613
+2025-05-01T16:40:37.296+05:45  INFO 777308 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T16:40:37.332+05:45  WARN 777308 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T16:40:38.569+05:45  INFO 777308 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T16:40:38.895+05:45  INFO 777308 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:40:39.347+05:45  INFO 777308 --- [EcommerceCommon] [main] n.c.j.e.admin.user.UserRepositoryTests   : Started UserRepositoryTests in 4.234 seconds (process running for 5.346)
+2025-05-01T16:40:40.012+05:45  INFO 777308 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T16:40:40.015+05:45  INFO 777308 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T16:40:40.020+05:45  INFO 777308 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,28 @@
+2025-05-01T15:31:05.267+05:45  INFO 729462 --- [EcommerceCommon] [main] n.c.j.e.a.EcommerceBackendApplication    : Starting EcommerceBackendApplication using Java 21.0.7 with PID 729462 (/home/jp/Documents/eclipse-workspace/EcommerceProject/EcommerceWebParent/EcommerceBackend/target/classes started by jp in /home/jp/Documents/eclipse-workspace/EcommerceProject)
+2025-05-01T15:31:05.270+05:45  INFO 729462 --- [EcommerceCommon] [main] n.c.j.e.a.EcommerceBackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T15:31:06.281+05:45  INFO 729462 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01T15:31:06.381+05:45  INFO 729462 --- [EcommerceCommon] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 2 JPA repository interfaces.
+2025-05-01T15:31:07.189+05:45  INFO 729462 --- [EcommerceCommon] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-01T15:31:07.214+05:45  INFO 729462 --- [EcommerceCommon] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-01T15:31:07.215+05:45  INFO 729462 --- [EcommerceCommon] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-01T15:31:07.299+05:45  INFO 729462 --- [EcommerceCommon] [main] o.a.c.c.C.[Tomcat].[localhost].[/admin]  : Initializing Spring embedded WebApplicationContext
+2025-05-01T15:31:07.300+05:45  INFO 729462 --- [EcommerceCommon] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1963 ms
+2025-05-01T15:31:07.590+05:45  INFO 729462 --- [EcommerceCommon] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-01T15:31:07.707+05:45  INFO 729462 --- [EcommerceCommon] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-01T15:31:07.772+05:45  INFO 729462 --- [EcommerceCommon] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-01T15:31:08.327+05:45  INFO 729462 --- [EcommerceCommon] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01T15:31:08.378+05:45  INFO 729462 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-01T15:31:08.616+05:45  INFO 729462 --- [EcommerceCommon] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@191f4d65
+2025-05-01T15:31:08.619+05:45  INFO 729462 --- [EcommerceCommon] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-01T15:31:08.671+05:45  WARN 729462 --- [EcommerceCommon] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-01T15:31:09.771+05:45  INFO 729462 --- [EcommerceCommon] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-01T15:31:09.857+05:45  WARN 729462 --- [EcommerceCommon] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2025-05-01T15:31:09.858+05:45  WARN 729462 --- [EcommerceCommon] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk6dotkott2kjsp8vw4d0m25fb7" of relation "users" does not exist, skipping
+2025-05-01T15:31:09.880+05:45  INFO 729462 --- [EcommerceCommon] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:31:09.924+05:45  WARN 729462 --- [EcommerceCommon] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-01T15:31:09.952+05:45  INFO 729462 --- [EcommerceCommon] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-05-01T15:31:10.809+05:45  INFO 729462 --- [EcommerceCommon] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/admin'
+2025-05-01T15:31:10.818+05:45  INFO 729462 --- [EcommerceCommon] [main] n.c.j.e.a.EcommerceBackendApplication    : Started EcommerceBackendApplication in 6.286 seconds (process running for 7.442)
+2025-05-01T15:32:24.891+05:45  INFO 729462 --- [EcommerceCommon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01T15:32:24.896+05:45  INFO 729462 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-01T15:32:24.901+05:45  INFO 729462 --- [EcommerceCommon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
