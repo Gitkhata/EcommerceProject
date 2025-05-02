@@ -41,9 +41,16 @@ public class UserServiceImpl implements UserService {
      *
      * @param user
      */
+    @Override
     public void encodePassword(User user) {
-        String encodedPassword =bCryptPasswordEncoder.encode(user.getPassword());
+        String encodedPassword = bCryptPasswordEncoder.encode(user.getPassword());
         user.setPassword(encodedPassword);
     }
 
+    @Override
+    public Boolean isUniqueEmail(String email) {
+        User userEmail = userRepository.findUserByEmail(email);
+        Boolean check = userEmail == null ? false : true;
+        return check;
+    }
 }

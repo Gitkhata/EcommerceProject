@@ -11,4 +11,6 @@ public interface UserService {
  public List<User> listAll();
  public List<Role> listRoles();
  void save(User user);
+ public void encodePassword(User user);
+ public Boolean isUniqueEmail(String email);
 }

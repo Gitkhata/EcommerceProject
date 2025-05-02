@@ -104,4 +104,12 @@ public class UserRepositoryTests {
         assertThat(user).isNotPresent();
     }
 
+    @Test
+    public void testFindUserByEmail() {
+        String email ="jeevan@np.com";
+        User user =  userRepository.findUserByEmail(email);
+
+        assertThat(user).isNotNull();
+    }
+
 }
