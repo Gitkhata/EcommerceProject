@@ -29,7 +29,7 @@ public class User {
     @Column(name = "photos", length = 100)
     private String photos;
 
-    private boolean enabled;
+    private Boolean enabled;
 
     @ManyToMany
     @JoinTable(name = "users_roles",
@@ -100,11 +100,11 @@ public class User {
         this.photos = photos;
     }
 
-    public boolean isEnabled() {
+    public Boolean getEnabled() {
         return enabled;
     }
 
-    public void setEnabled(boolean enabled) {
+    public void setEnabled(Boolean enabled) {
         this.enabled = enabled;
     }
 

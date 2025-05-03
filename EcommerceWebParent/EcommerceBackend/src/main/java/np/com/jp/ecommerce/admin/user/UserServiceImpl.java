@@ -6,6 +6,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.Objects;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -13,6 +15,7 @@ public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
+//    Boolean check = userEmail == null ? false : true;
 
     public UserServiceImpl(UserRepository userRepository, RoleRepository roleRepository, BCryptPasswordEncoder bCryptPasswordEncoder) {
         this.userRepository = userRepository;
@@ -32,7 +35,19 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void save(User user) {
-        encodePassword(user);
+        boolean isUpdatingUser = (user.getId() != null);
+
+        if (isUpdatingUser) {
+            User existingUser = userRepository.findById(user.getId()).get();
+            if (existingUser.getPassword().isEmpty()) {
+                user.setPassword(existingUser.getPassword()); // don't update the password
+            } else {
+                encodePassword(user); // update the password
+            }
+        } else {
+            encodePassword(user);  // new user
+        }
+
         userRepository.save(user);
     }
 
@@ -48,9 +63,31 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public Boolean isUniqueEmail(String email) {
+    public User getUserById(Integer id) throws UserNotFoundException {
+        try {
+            return userRepository.findById(id).get();
+        } catch (NoSuchElementException noSuchElementException) {
+            throw new UserNotFoundException("User not found with id: " + id);
+        }
+    }
+
+    @Override
+    public Boolean isUniqueEmail(Integer id, String email) {
         User userEmail = userRepository.findUserByEmail(email);
-        Boolean check = userEmail == null ? false : true;
-        return check;
+        if (userEmail == null) {
+            return true;
+        }
+
+        boolean isNewUser = (id == null);
+        if (isNewUser) {
+            if (userEmail != null) {
+                return false;
+            }
+        } else {
+            if (!Objects.equals(userEmail.getId(), id)) {
+                return false;
+            }
+        }
+        return true;
     }
 }

@@ -13,8 +13,8 @@ public class UserRestController {
     }
 
     @PostMapping("/users/checkEmail")
-    public String checkDuplicateMail(@Param("email") String email) {
-        return userService.isUniqueEmail(email) ? "Email OK" : "Duplicated";
+    public String checkDuplicateMail(@Param("id") Integer id, @Param("email") String email) {
+        return userService.isUniqueEmail(id, email) ? "Email OK" : "Duplicated";
     }
 }
 
