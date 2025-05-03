@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
     <title>Manage Users</title>
     <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/fontawesome/all.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}" />
     <script type="text/javascript" th:src="@{webjars/jquery/jquery.min.js}"></script>
     <script type="text/javascript" th:src="@{webjars/bootstrap/js/bootstrap.min.js}"></script>
 </head>
@@ -59,7 +61,7 @@
             <tbody>
             <tr th:each="user : ${listUsers}">
                 <td>[[${user.id}]]</td>
-                <td><span class="fa-regular fa-image-portrait"></span></td>
+                <td><span class="fa-solid fa-image-portrait fa-3x icon-silver"></span></td>
                 <td>[[${user.email}]]</td>
                 <td>[[${user.firstName}]]</td>
                 <td>[[${user.lastName}]]</td>
@@ -70,14 +72,13 @@
                 </td>
 
                 <td>
-                   <a class="fas fa-check-circle- fa-2"></a>
-               </td>
-                <td>
-                    <a class="fas fa-edit fa-2x" href=""></a> &nbsp;&nbsp;
+                    <a class="fas fa-solid fa-pen-to-square fa-2x icon-green" href=""></a>
+                    &nbsp;
+                    <a class="fas fa-trash fa-2x icon-red" href=""></a>
+                </td>
             </tr>
             </tbody>
         </table>
-
     </div>
 
     <footer class="text-center">
